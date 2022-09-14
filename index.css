@@ -1,0 +1,68 @@
+@font-face {
+  font-family: sevenSegment;
+  src: url("seven_segment.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #fde68a;
+  font-family: sevenSegment;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.score-num {
+  background-color: #ddd6fe;
+  color: #78350f;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 90;
+  border: thick solid transparent;
+}
+
+.board-title {
+  text-align: center;
+  font-size: 40;
+  font-weight: bold;
+  color: #78350f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-btn {
+  text-align: center;
+  font-size: 30;
+  font-weight: bold;
+  color: #78350f;
+}
+
+.options {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #78350f;
+  font-size: 50;
+}
+
+.options button {
+  text-align: center;
+  font-size: 20;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#quarter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35;
+  margin: 0;
+}
+
+#timer {
+  margin: 0;
+}

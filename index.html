@@ -1,0 +1,57 @@
+<html>
+  <head
+    ><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="container-home">
+        <h3 class="board-title">HOME</h3>
+        <h1 class="score-num" id="home-score">0</h1>
+        <div>
+          <button class="score-btn" id="home-plus-one" onclick="homePlusOne()"
+            >+1</button
+          >
+          <button class="score-btn" id="home-plus-two" onclick="homePlusTwo()"
+            >+2</button
+          >
+          <button
+            class="score-btn"
+            id="home-plus-three"
+            onclick="homePlusThree()"
+            >+3</button
+          >
+        </div>
+      </div>
+      <div id="container-guest">
+        <h3 class="board-title">GUEST</h3>
+        <h1 class="score-num" id="guest-score">0</h1>
+        <div>
+          <button class="score-btn" id="guest-plus-one" onclick="guestPlusOne()"
+            >+1</button
+          >
+          <button class="score-btn" id="guest-plus-two" onclick="guestPlusTwo()"
+            >+2</button
+          >
+          <button
+            class="score-btn"
+            id="guest-plus-three"
+            onclick="guestPlusThree()"
+            >+3</button
+          >
+        </div>
+      </div>
+    </div>
+    <div class="options">
+      <h3 id="quarter">Quarter</h3>
+      <h3 id="timer">TIMER</h3>
+      <progress value="" max="" id="progressBar"></progress>
+      <button id="start-game-btn" onclick="newGame()">START GAME</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
